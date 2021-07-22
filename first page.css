@@ -32,14 +32,12 @@
 .backtest{
     background-color: rgb(0, 217, 255,0.2);
 }
-<<<<<<< HEAD
 h1{
     text-align: center;
 }
 .word{
     margin: 1%;
 }
-=======
 .backgray{
     font-weight: bold;
     font-size: larger;
@@ -51,4 +49,3 @@ h1{
     align-items: center;
     margin-bottom: -20px;
 }
->>>>>>> 17e001fb182fcf91df4dddd555e80c83caba8cb9
