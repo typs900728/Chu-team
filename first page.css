@@ -33,4 +33,14 @@
 .backtest{
     background-color: rgb(0, 217, 255,0.2);
 }
-
+.backgray{
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(128, 128, 128,0.2);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+}
