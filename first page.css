@@ -16,7 +16,6 @@
 .word1{
     text-decoration:none;
     color: black;
-
 }
 .center1{
     Display: flex;
@@ -33,6 +32,9 @@
 .backtest{
     background-color: rgb(0, 217, 255,0.2);
 }
-.b2{
-    
+h1{
+    text-align: center;
+}
+.word{
+    margin: 1%;
 }
