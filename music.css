@@ -1,0 +1,206 @@
+.top{
+    position: fixed;
+    border-style: solid;
+    border-width: 0.05px;
+    border-color: rgb(0, 0, 0,0.1);
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    top: 0%;
+    color: black;
+    margin: 0 auto;
+    Display: flex;
+    margin-left: -10px;
+   
+}
+.center1{
+    Display: flex;
+    margin: 0 auto;
+}
+.word1{
+    text-decoration:none;
+    color: black;
+
+}
+.op{
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    
+}
+.musicop{
+    width: 98%;
+    height: 400px;
+    margin-bottom: 0%;
+}
+.ed{
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 500px;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    
+}
+.musiced{
+    width: 98%;
+    height: 400px;
+    margin-bottom: 0%;
+}
+.introductiondiv{
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+    word-wrap:break-word;
+
+}
+
+.out{
+    display: block;
+}
+@media screen and (max-width:550px){
+    .musicop{
+        height: 300px;
+    }
+}
+@media screen and (max-width:300px){
+    .musicop{
+        height: 200px;
+    }
+}
+.midle1{
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    
+}
+.shiroha{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/28.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.ao{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/1.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.kamome{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/4.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.tsumugi{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/36.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.miki{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/47.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.shizuku{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/48.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.shiki{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url(/cg/18.jpg);
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.umi{
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: none;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.umi:hover{
+    transition-delay: 1s;
+    background-image: url(/cg/23.jpg);
+}
+.song{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.h2{
+    width: 20%;
+    margin-left: 40%;
+}
+.midle2{
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.sl2{
+    margin-top: 30px;
+    margin-left: 2.5%;
+    width: 95%;
+    height: 550px;
+}
+.sc1{
+    height: 500px;
+}
+.cdpic{
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.center2{
+    Display: flex;
+    width: 45%;
+    margin-left:26.5% ;
+}
+.bot{
+    position: relative;
+    border-style: solid;
+    border-width: 0.05px;
+    border-color: rgb(0, 0, 0,0.1);
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    Display: flex;
+}
