@@ -15,7 +15,6 @@ p{
     Display: flex;
     margin-left: -10px;
     z-index: 1;
-    background-color: aquamarine;
     
 }
 .center1{
@@ -207,17 +206,13 @@ p{
     width: 45%;
     margin-left:26.5% ;
 }
-.bot{
-    position: relative;
-    border-style: solid;
-    border-width: 0.05px;
-    border-color: rgb(0, 0, 0,0.1);
-    background-color: white;
+.backgray{
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(128, 128, 128,0.2);
     width: 100%;
-    align-items: center;
+    height: 100px;
     text-align: center;
-    color: black;
-    margin: 0 auto;
-    Display: flex;
-    background-color: tomato;
+    display: flex;
+    align-items: center;
 }

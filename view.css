@@ -41,6 +41,8 @@
     float: left;
     text-decoration:none;
     margin-top: -10px;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture1:hover{
     background-image:url(/reality&virtual/p1r.jpg);
@@ -59,7 +61,9 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
-    margin-top: -1
+    margin-top: -1;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture2:hover{
     background-image:url(/reality&virtual/p2r.jpg);
@@ -78,6 +82,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture3:hover{
     background-image:url(/reality&virtual/p3r.jpg);
@@ -96,6 +102,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture4:hover{
     background-image:url(/reality&virtual/p4r.jpg);
@@ -114,6 +122,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture5:hover{
     background-image:url(/reality&virtual/p5r.jpg);
@@ -132,6 +142,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture6:hover{
     background-image:url(/reality&virtual/p6r.jpg);
@@ -150,6 +162,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture7:hover{
     background-image:url(/reality&virtual/p7r.jpg);
@@ -168,6 +182,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture8:hover{
     background-image:url(/reality&virtual/p8r.jpg);
@@ -186,6 +202,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture9:hover{
     background-image:url(/reality&virtual/p9r.jpg);
@@ -204,6 +222,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture10:hover{
     background-image:url(/reality&virtual/p10r.jpg);
@@ -222,6 +242,9 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
 }
 .picture11:hover{
     background-image:url(/reality&virtual/p11r.jpg);
@@ -240,6 +263,8 @@
     transition: 0.5s;
     float: left;
     text-decoration:none;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 .picture12:hover{
     background-image:url(/reality&virtual/p12r.jpg);
@@ -249,4 +274,20 @@
     width: 100%;
     text-align: center;
     margin-top: 5%;
+}
+.backgroundcolor{
+    margin-top: -8px;
+    margin-right: -8px;
+    height: 8300px;
+    background-color: rgb(0, 217, 255,0.1);
+}
+.backgray{
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(128, 128, 128,0.2);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
