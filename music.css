@@ -73,6 +73,10 @@ p{
     display: block;
     background-color: wheat;
 }
+.character-music-div{
+    background-color: rgba(180, 252, 86, 0.568);
+    text-align: center;
+}
 @media screen and (max-width:550px){
     .musicop{
         height: 300px;
@@ -172,6 +176,8 @@ p{
 .h2{
     width: 20%;
     margin-left: 40%;
+    font-family: fantasy;
+    color: green;
 }
 .midle2{
     margin-left: 5%;
@@ -214,7 +220,4 @@ p{
     margin: 0 auto;
     Display: flex;
     background-color: tomato;
-}
-@media screen and (max-width:1300px){
-
 }
