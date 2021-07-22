@@ -1,3 +1,6 @@
+p{
+    font-family: fantasy;
+}
 .top{
     position: fixed;
     border-style: solid;
@@ -11,7 +14,9 @@
     margin: 0 auto;
     Display: flex;
     margin-left: -10px;
-   
+    z-index: 1;
+    background-color: aquamarine;
+    
 }
 .center1{
     Display: flex;
@@ -29,7 +34,11 @@
     width: 60%;
     text-align: center;
     align-items: center;
-    
+    background-color: royalblue;
+}
+.h1{
+    font-family: fantasy;
+    color: white;
 }
 .musicop{
     width: 98%;
@@ -43,7 +52,8 @@
     width: 60%;
     text-align: center;
     align-items: center;
-    
+    background-color: teal;
+    font-family: fantasy;
 }
 .musiced{
     width: 98%;
@@ -57,11 +67,11 @@
     margin-top: 5%;
     width: 60%;
     word-wrap:break-word;
-
+    
 }
-
 .out{
     display: block;
+    background-color: wheat;
 }
 @media screen and (max-width:550px){
     .musicop{
@@ -203,4 +213,8 @@
     color: black;
     margin: 0 auto;
     Display: flex;
+    background-color: tomato;
+}
+@media screen and (max-width:1300px){
+
 }
