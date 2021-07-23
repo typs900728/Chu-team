@@ -22,187 +22,130 @@
     Display: flex;
     margin: 0 auto;
 }
-.circle1{
-    background-image:url(/character/shiroha1.png);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2.5%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle2{
-    background-image:url(/character/Ao\ 1.png);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle3{
-    background-image:url(/character/kamome1.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle4{
-    background-image:url(/character/tsumugi1.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle5{
-    background-image:url(/character/nomiki1.png);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle6{
-    background-image:url(/character/shizuku1.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle7{
-    background-image:url(/character/umi1.png);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.circle8{
-    background-image:url(/character/shiki1.png);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid black;
-    border-radius: 50%;
-    margin-top: 2%;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-}
-.horizontal{
-    Display: flex;
-    width: 100%;
-}
-.top40px{
-    margin-top: 50px;
-}
-.circle1:hover{
-    background-image:url(/character/shiroha2.png);
-    display: block;
-}
-.circle2:hover{
-    background-image:url(/character/Ao2.png);
-    display: block;
-}
-.circle3:hover{
-    background-image:url(/character/kamome2.jpg);
-    display: block;
-}
-.circle4:hover{
-    background-image:url(/character/tsumugi2.jpg);
-    display: block;
-}
 
-.circle5:hover{
-    background-image:url(/character/nomiki2.png);
-    display: block;
-}
-
-.circle6:hover{
-    background-image:url(/character/shizuku2.jpg);
-    display: block;
-}
-
-.circle7:hover{
-    background-image:url(/character/umi2.png);
-    display: block;
-}
-
-.circle8:hover{
-    background-image:url(/character/shiki2.jpg);
-    display: block;
-}
-.width40percent{
-    width: 60%;
-}
 .backgray{
     font-weight: bold;
     font-size: larger;
-    background-color: rgb(128, 128, 128,0.2);
+    background-color: rgb(219, 219, 219);
     width: 100%;
     height: 100px;
     text-align: center;
     display: flex;
     align-items: center;
 }
+.out{
+    width: 80%;
+    margin-left: 10%;
+}
+.shiroha{
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(243, 243, 243, 0.8);
+}
+
+.cg1{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display:none;
+}
+.character1:hover .cg1{animation-name: an1;
+    animation-duration: 3s;
+    display:block;
+    position:relative;
+}
+@keyframes an1{
+    0%{height: 0px;}
+    100%{height: 550px;}
+} 
+.toppic{
+    width: 100%;
+}
+.bg{
+    background-image: url(/character/character_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding-top: 5%;
+    z-index: -9999;
+    opacity: 1;
+}
+.btndiv{
+    display:flex;
+}
+.btn{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2.5%;
+}
+.btn1{
+    background-image: url(/character/character_kato_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn2{
+    background-image: url(/character/character_nomura_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn3{
+    background-image: url(/character/character_ao_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn4{
+    background-image: url(/character/character_siroha_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn5{
+    background-image: url(/character/character_shiki_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn6{
+    background-image: url(/character/character_kamome_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn7{
+    background-image: url(/character/character_wenders_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+.btn8{
+    background-image: url(/character/character_shizuku_icon.png);
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    text-decoration:none;
+    background-repeat: no-repeat;
+}
+
