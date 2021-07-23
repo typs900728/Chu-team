@@ -5,7 +5,7 @@
     border-color: rgb(0, 0, 0,0.1);
     background-color: white;
     width: 100%;
-    height: 5%;
+    height: 50px;
     text-align: center;
     top: 0%;
     color: black;
@@ -51,4 +51,26 @@ h1{
     display: flex;
     align-items: center;
     margin-bottom: -20px;
+}
+.bg{
+    background-image: url(/firsrback/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding-top: 5%;
+    z-index: -9999;
+    opacity: 1;
+}
+.picture1{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3%;
+}
+.backwhite{
+    height: 120%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255,0.5);
 }
