@@ -40,6 +40,7 @@ h1{
 }
 .word{
     margin: 2% 20%;
+    font-size: 20px;
 }
 .backgray{
     font-weight: bold;
@@ -72,5 +73,5 @@ h1{
     height: 120%;
     width: 60%;
     margin-left: 20%;
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgb(255, 255, 255,0.7);
 }

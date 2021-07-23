@@ -27,6 +27,9 @@ p{
     color: black;
 
 }
+.word{
+    font-size: 20px;
+}
 .op{
     margin-left: 20%;
     margin-top: 5%;
