@@ -74,7 +74,9 @@
     opacity: 1;
 }
 .btndiv{
-    display:flex;
+    position: fixed;
+    top: 5%;
+    margin: 0 auto;
 }
 .btn{
     display: flex;
@@ -83,7 +85,8 @@
     border: 1px solid rgb(65, 65, 65);
     border-radius: 50%;
     text-align: center;
-    margin-left: 2.5%;
+    margin-top: 5px;
+    
 }
 .btn1{
     background-image: url(/character/character_kato_icon.png);
@@ -172,4 +175,7 @@
     font-size: 20px;
     width: 100%;
     margin-left: 5%;
+}
+.skip{
+    height: 50px;
 }
