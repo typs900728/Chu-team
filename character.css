@@ -37,10 +37,11 @@
     width: 80%;
     margin-left: 10%;
 }
-.shiroha{
-    border-style: solid;
-    border-color: black;
+.characterdiv{
     background-color: rgba(243, 243, 243, 0.8);
+    height: 550px;
+    border-radius: 15px;
+    width: 100%;
 }
 
 .cg1{
@@ -49,7 +50,7 @@
     object-fit: cover;
     display:none;
 }
-.character1:hover .cg1{animation-name: an1;
+.character:hover .cg1{animation-name: an1;
     animation-duration: 3s;
     display:block;
     position:relative;
@@ -148,4 +149,27 @@
     text-decoration:none;
     background-repeat: no-repeat;
 }
-
+.chpic{
+    width: auto;
+    height: 100%;
+}
+.character{
+    margin-top: 50px;
+}
+.r{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.l{
+    display: flex;
+}
+.introduce1{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 5%;
+}
+.introduce2{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 5%;
+}
