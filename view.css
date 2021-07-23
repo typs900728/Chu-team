@@ -31,7 +31,6 @@
     background-image: url(/reality&virtual/p1v.jpg);
     background-size: cover;
     display: flex;
-    font-size: 50px;
     text-align: center;
     width: 100%;
     height: 600px;
@@ -43,6 +42,7 @@
     margin-top: -10px;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture1:hover{
     background-image:url(/reality&virtual/p1r.jpg);
@@ -64,6 +64,7 @@
     margin-top: -1;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture2:hover{
     background-image:url(/reality&virtual/p2r.jpg);
@@ -84,6 +85,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture3:hover{
     background-image:url(/reality&virtual/p3r.jpg);
@@ -104,6 +106,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture4:hover{
     background-image:url(/reality&virtual/p4r.jpg);
@@ -124,6 +127,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture5:hover{
     background-image:url(/reality&virtual/p5r.jpg);
@@ -144,6 +148,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture6:hover{
     background-image:url(/reality&virtual/p6r.jpg);
@@ -164,6 +169,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture7:hover{
     background-image:url(/reality&virtual/p7r.jpg);
@@ -184,6 +190,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture8:hover{
     background-image:url(/reality&virtual/p8r.jpg);
@@ -204,6 +211,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture9:hover{
     background-image:url(/reality&virtual/p9r.jpg);
@@ -224,6 +232,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture10:hover{
     background-image:url(/reality&virtual/p10r.jpg);
@@ -244,6 +253,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
     
 }
 .picture11:hover{
@@ -265,6 +275,7 @@
     text-decoration:none;
     object-fit: cover;
     margin-bottom: 15px;
+    background-size: 100%100%;
 }
 .picture12:hover{
     background-image:url(/reality&virtual/p12r.jpg);
@@ -293,4 +304,14 @@
 }
 .mgintop{
     margin-top: 100px;
+}
+@media screen and (max-width:1000px){
+    .picture1{
+        height: 100;
+    }
+}
+@media screen and (min-width:1000px){
+    .picture1{
+        height: 400;
+    }
 }
