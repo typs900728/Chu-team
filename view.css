@@ -291,3 +291,6 @@
     display: flex;
     align-items: center;
 }
+.mgintop{
+    margin-top: 100px;
+}
