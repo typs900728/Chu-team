@@ -5,13 +5,13 @@
     border-color: rgb(0, 0, 0,0.1);
     background-color: white;
     width: 100%;
-    height: 5%;
+    height: 50px;
     text-align: center;
     top: 0%;
     color: black;
     margin: 0 auto;
     Display: flex;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 .word1{
     text-decoration:none;
@@ -22,27 +22,35 @@
     Display: flex;
     margin: 0 auto;
 }
-.margintop50px{
-    margin-top: 50px;
-    width: 60%;
-    margin-left: 20%;
+.bg{
+    background-image: url(/viewback/nanami.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding-top: 5%;
+    z-index: -9999;
+    opacity: 1;
+    margin-left: 0px;
+    background-size: 100%100%;
 }
+.word2{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255,0.7);
+}
+
 .picture1{
     background-image: url(/reality&virtual/p1v.jpg);
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
-    object-fit: cover;
-    margin-bottom: 15px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture1:hover{
     background-image:url(/reality&virtual/p1r.jpg);
@@ -50,21 +58,13 @@
 }
 .picture2{
     background-image: url(/reality&virtual/p2v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    margin-top: -1;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture2:hover{
     background-image:url(/reality&virtual/p2r.jpg);
@@ -72,20 +72,13 @@
 }
 .picture3{
     background-image: url(/reality&virtual/p3v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture3:hover{
     background-image:url(/reality&virtual/p3r.jpg);
@@ -93,20 +86,13 @@
 }
 .picture4{
     background-image: url(/reality&virtual/p4v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture4:hover{
     background-image:url(/reality&virtual/p4r.jpg);
@@ -114,20 +100,13 @@
 }
 .picture5{
     background-image: url(/reality&virtual/p5v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture5:hover{
     background-image:url(/reality&virtual/p5r.jpg);
@@ -135,20 +114,13 @@
 }
 .picture6{
     background-image: url(/reality&virtual/p6v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture6:hover{
     background-image:url(/reality&virtual/p6r.jpg);
@@ -156,20 +128,13 @@
 }
 .picture7{
     background-image: url(/reality&virtual/p7v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture7:hover{
     background-image:url(/reality&virtual/p7r.jpg);
@@ -177,20 +142,13 @@
 }
 .picture8{
     background-image: url(/reality&virtual/p8v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture8:hover{
     background-image:url(/reality&virtual/p8r.jpg);
@@ -198,20 +156,13 @@
 }
 .picture9{
     background-image: url(/reality&virtual/p9v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture9:hover{
     background-image:url(/reality&virtual/p9r.jpg);
@@ -219,20 +170,13 @@
 }
 .picture10{
     background-image: url(/reality&virtual/p10v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture10:hover{
     background-image:url(/reality&virtual/p10r.jpg);
@@ -240,21 +184,13 @@
 }
 .picture11{
     background-image: url(/reality&virtual/p11v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
-    
+    margin-bottom: -50px;
 }
 .picture11:hover{
     background-image:url(/reality&virtual/p11r.jpg);
@@ -262,65 +198,26 @@
 }
 .picture12{
     background-image: url(/reality&virtual/p12v.jpg);
-    background-size: cover;
-    display: flex;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
+    width: 60%;
     height: 600px;
-    border: 4px solid black;
-    overflow: hidden;
-    transition: 0.5s;
-    float: left;
-    text-decoration:none;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-left: 20%;
+    border: 4px solid rgb(255, 255, 255,0.7);;
+    margin-top: -10px;
     background-size: 100%100%;
+    margin-bottom: -50px;
 }
 .picture12:hover{
     background-image:url(/reality&virtual/p12r.jpg);
     display: block;
 }
-.word2{
-    width: 100%;
-    text-align: center;
-    margin-top: 5%;
-}
-.backgroundcolor{
-    margin-top: -8px;
-    margin-right: -8px;
-    height: 8300px;
-    background-color: rgb(0, 217, 255,0.1);
-}
-.backgray{
-    font-weight: bold;
-    font-size: larger;
-    background-color: rgb(128, 128, 128,0.2);
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: -50px;
-}
 .mgintop{
-    margin-top: 100px;
-}
-@media screen and (max-width:1000px){
-    .picture1{
-        height: 100;
-    }
-}
-@media screen and (min-width:1000px){
-    .picture1{
-        height: 400;
-    }
+    margin-top: -100px;
 }
 .picturebox{
     width: 100%;
     height: 550px;
-    margin-top: 0;
-    background-color: rgb(0, 217, 255,0.1);
+    margin-top: 50px;
+
 }
 .picturesize{
     width: 70%;
@@ -334,8 +231,22 @@
 }
 .thirty{
     margin-left: 23%;
+    color: rgb(255, 255, 255,0.7);
 }
 .seven{
     margin-left: 43%;
+    color: rgb(255, 255, 255,0.7);
 }
-
+.backgray{
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(128, 128, 128,0.2);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: -50px;
+    margin-left: 0px;
+    
+}
