@@ -71,7 +71,7 @@
 }
 .out{
     display: block;
-
+    width: 100%;
 }
 .character-music-div{
 
@@ -218,6 +218,7 @@
     text-align: center;
     display: flex;
     align-items: center;
+    background-color: rgb(219, 219, 219);
 }
 .bg{
     background-image: url(/musicback/background.jpg);
