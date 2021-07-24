@@ -13,6 +13,7 @@
     Display: flex;
     margin-left: -10px;
 }
+
 .word1{
     text-decoration:none;
     color: black;
@@ -23,7 +24,7 @@
     margin: 0 auto;
 }
 .center2{
-    margin-top: 1%;
+    margin-top: 15%;
     margin-left: 20%;
     margin-right: 20%;
 }
