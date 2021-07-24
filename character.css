@@ -12,6 +12,7 @@
     Display: flex;
     margin-left: -10px;
     z-index: 1;
+    font-size: 1vh;
 }
 .word1{
     text-decoration:none;

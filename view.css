@@ -11,6 +11,7 @@
     margin: 0 auto;
     Display: flex;
     margin-left: 0px;
+    font-size: 1vh;
 }
 .word1{
     text-decoration:none;
