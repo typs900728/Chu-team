@@ -42,17 +42,19 @@
 }
 
 .picture1{
-    background-image: url(/reality&virtual/p1v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture1:hover{
-    background-image:url(/reality&virtual/p1r.jpg);
+.pic1{
+    width: 100%;
+    height: 100%;
+}
+.picture1:hover .pic1{
+    content:url(/reality&virtual/p1r.jpg);
     display: block;
     
 }
