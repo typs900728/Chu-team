@@ -6,7 +6,6 @@
     border-color: rgb(0, 0, 0,0.1);
     background-color: white;
     width: 100%;
-    height: 50px;
     text-align: center;
     top: 0%;
     color: black;
@@ -14,6 +13,7 @@
     Display: flex;
     margin-left: -10px;
     z-index: 1;
+    font-size: 1vh;
     
 }
 .center1{
@@ -71,7 +71,7 @@
 }
 .out{
     display: block;
-
+    width: 100%;
 }
 .character-music-div{
 
@@ -218,6 +218,7 @@
     text-align: center;
     display: flex;
     align-items: center;
+    background-color: rgb(219, 219, 219);
 }
 .bg{
     background-image: url(/musicback/background.jpg);

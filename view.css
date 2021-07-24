@@ -11,6 +11,7 @@
     margin: 0 auto;
     Display: flex;
     margin-left: 0px;
+    font-size: 1vh;
 }
 .word1{
     text-decoration:none;
@@ -32,7 +33,6 @@
     z-index: -9999;
     opacity: 1;
     margin-left: 0px;
-    background-size: 100%100%;
 }
 .word2{
     width: 100%;
@@ -239,7 +239,7 @@
     margin-top: -100px;
 }
 .picturebox{
-    width: 100%;
+    width: 95%;
     height: 550px;
     margin-top: 50px;
 
