@@ -203,5 +203,57 @@
     }
 
 }
+@media screen and (max-width:800px){
+    .chpic{
+        width: auto;
+        height: 300px;
+    }
+
+}
+@media screen and (max-width:441px){
+    .btn{
+        height: 30px;
+        width: 30px;
+    }
+    .btndiv{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:768px){
+    .btn{
+        height: 60px;
+        width: 60px;
+    }
+    .btndiv{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:540px){
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+    .btndiv{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:280px){
+    .btn{
+        height: 30px;
+        width: 30px;
+    }
+    .btndiv{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:441px){
+    .r{
+        flex-direction: column  ;
+    }
+    .l{
+        flex-direction: column  ;
+    }
+}
+
 
 
