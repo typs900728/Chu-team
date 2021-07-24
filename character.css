@@ -261,6 +261,13 @@
         flex-direction: column  ;
     }
 }
+.secret{
+    display:none;
+}
+
+.character:hover .secret{
+    display:block;
+}
 
 
 
