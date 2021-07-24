@@ -59,157 +59,180 @@
     
 }
 .picture2{
-    background-image: url(/reality&virtual/p2v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture2:hover{
-    background-image:url(/reality&virtual/p2r.jpg);
+.pic2{
+    width: 100%;
+    height: 100%;
+}
+.picture2:hover .pic2{
+    content:url(/reality&virtual/p2r.jpg);
     display: block;
 }
 .picture3{
-    background-image: url(/reality&virtual/p3v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture3:hover{
-    background-image:url(/reality&virtual/p3r.jpg);
+.pic3{
+    width: 100%;
+    height: 100%;
+}
+.picture3:hover .pic3{
+    content:url(/reality&virtual/p3r.jpg);
     display: block;
 }
 .picture4{
-    background-image: url(/reality&virtual/p4v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture4:hover{
-    background-image:url(/reality&virtual/p4r.jpg);
+.pic4{
+    width: 100%;
+    height: 100%;
+}
+.picture4:hover .pic4{
+    content:url(/reality&virtual/p4r.jpg);
     display: block;
 }
+
 .picture5{
-    background-image: url(/reality&virtual/p5v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture5:hover{
-    background-image:url(/reality&virtual/p5r.jpg);
+.pic5{
+    width: 100%;
+    height: 100%;
+}
+.picture5:hover .pic5{
+    content:url(/reality&virtual/p5r.jpg);
     display: block;
 }
 .picture6{
-    background-image: url(/reality&virtual/p6v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture6:hover{
-    background-image:url(/reality&virtual/p6r.jpg);
+.pic6{
+    width: 100%;
+    height: 100%;
+}
+.picture6:hover .pic6{
+    content:url(/reality&virtual/p6r.jpg);
     display: block;
 }
 .picture7{
-    background-image: url(/reality&virtual/p7v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture7:hover{
-    background-image:url(/reality&virtual/p7r.jpg);
+.pic7{
+    width: 100%;
+    height: 100%;
+}
+.picture7:hover .pic7{
+    content:url(/reality&virtual/p7r.jpg);
     display: block;
 }
 .picture8{
-    background-image: url(/reality&virtual/p8v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture8:hover{
-    background-image:url(/reality&virtual/p8r.jpg);
+.pic8{
+    width: 100%;
+    height: 100%;
+}
+.picture8:hover .pic8{
+    content:url(/reality&virtual/p8r.jpg);
     display: block;
 }
 .picture9{
-    background-image: url(/reality&virtual/p9v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture9:hover{
-    background-image:url(/reality&virtual/p9r.jpg);
+.pic9{
+    width: 100%;
+    height: 100%;
+}
+.picture9:hover .pic9{
+    content:url(/reality&virtual/p9r.jpg);
     display: block;
 }
 .picture10{
-    background-image: url(/reality&virtual/p10v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture10:hover{
-    background-image:url(/reality&virtual/p10r.jpg);
+.pic10{
+    width: 100%;
+    height: 100%;
+}
+.picture10:hover .pic10{
+    content:url(/reality&virtual/p10r.jpg);
     display: block;
 }
 .picture11{
-    background-image: url(/reality&virtual/p11v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture11:hover{
-    background-image:url(/reality&virtual/p11r.jpg);
+.pic11{
+    width: 100%;
+    height: 100%;
+}
+.picture11:hover .pic11{
+    content:url(/reality&virtual/p11r.jpg);
     display: block;
 }
 .picture12{
-    background-image: url(/reality&virtual/p12v.jpg);
     width: 60%;
-    height: 600px;
     margin-left: 20%;
     border: 4px solid rgb(255, 255, 255,0.7);;
     margin-top: -10px;
     background-size: 100%100%;
     margin-bottom: -50px;
 }
-.picture12:hover{
-    background-image:url(/reality&virtual/p12r.jpg);
+.pic12{
+    width: 100%;
+    height: 100%;
+}
+.picture12:hover .pic12{
+    content:url(/reality&virtual/p12r.jpg);
     display: block;
 }
 .mgintop{
