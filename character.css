@@ -10,7 +10,6 @@
     color: black;
     margin: 0 auto;
     Display: flex;
-    margin-left: -10px;
     z-index: 1;
     font-size: 1vh;
 }
@@ -27,13 +26,10 @@
     font-weight: bold;
     font-size: larger;
     background-color: rgb(219, 219, 219);
-    width: 125%;
+    width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
-    margin-left: -12.5%;
-    margin-right: -12.5%;
-    margin-top: 10px;
     z-index:-1;
 }
 .out{
@@ -52,10 +48,11 @@
     height: 550px;
     object-fit: cover;
     display:none;
+    border-radius: 15px;
 }
 .character:hover .cg1{
     animation-name: an1;
-    animation-duration: 3s;
+    animation-duration: 1s;
     display:block;
     position: static;
 }
@@ -161,8 +158,29 @@
     height: 550px;
     object-fit: contain;
 }
-.character{
-    margin-top: 50px;
+#shiroha{
+    height: 50px;
+}
+#miki{
+    height: 50px;
+}
+#shizuku{
+    height: 50px;
+}
+#shiki{
+    height: 50px;
+}
+#umi{
+    height: 50px;
+}
+#tsumugi{
+    height: 50px;
+}
+#kamome{
+    height: 50px;
+}
+#ao{
+    height: 50px;
 }
 .r{
     display: flex;
