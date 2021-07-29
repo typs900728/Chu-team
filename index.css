@@ -50,11 +50,12 @@ h1{
     font-weight: bold;
     font-size: larger;
     background-color: rgb(219,219,219);
-    width: 100%;
+    width: 100.9%;
     text-align: center;
     display: flex;
     align-items: center;
     margin-bottom: -20px;
+    margin-left: -7px;
 }
 .bg{
     background-image: url(/firsrback/background.jpg);
@@ -62,7 +63,7 @@ h1{
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
+    width: 99%;
     padding-top: 5%;
     z-index: -9999;
     opacity: 1;

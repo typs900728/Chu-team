@@ -28,7 +28,7 @@
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
+    width: 99%;
     padding-top: 5%;
     z-index: -9999;
     opacity: 1;
@@ -265,14 +265,13 @@
 .backgray{
     font-weight: bold;
     font-size: larger;
-    background-color: rgb(128, 128, 128,0.2);
-    width: 100%;
+    background-color: rgb(219,219,219);
+    width: 100.9%;
     text-align: center;
     display: flex;
     align-items: center;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
     margin-left: 0px;
-    
 }
 .word4{
     width: 60.5%;
